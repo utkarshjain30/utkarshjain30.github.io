@@ -467,6 +467,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
   padding: 0px;
   font-size: 40px;
+  margin-top: 15px;
   color: #00b4d9;
 }
 
