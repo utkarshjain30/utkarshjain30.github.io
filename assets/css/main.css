@@ -236,6 +236,11 @@ button:focus {
   background: #CE332A;
 }
 
+.social-icon li .skype:hover {
+  background: #0078ca;
+}
+
+
 /* ScrollToTop */
 a.back-to-top {
   display: none;
@@ -963,6 +968,35 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .services-item:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.single-post h2 a {
+  display: block;
+  font-size: 20px;
+  color: #232323;
+  margin-bottom: 11px;
+  margin-top: 7px;
+  letter-spacing: 0;
+  color: #00b4d9;
+}
+
+
+
+.single-post h2 a:hover {
+  color: #5dafc3;
+}
+
+.single-post a {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.single-post a >img {
+  border-radius: 5px 5px 0px 0px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 250px;
 }
 
 .form-control {
